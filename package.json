@@ -1,0 +1,18 @@
+{
+  "name": "api-server-alchemy",
+  "version": "1.0.0",
+  "description": "API Server with Alchemy SDK on Ubuntu Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-alchemy.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "alchemy-sdk": "^1.0.0",
+    "dotenv": "^8.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
